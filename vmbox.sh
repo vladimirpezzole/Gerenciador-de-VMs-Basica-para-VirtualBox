@@ -33,7 +33,7 @@ vmStartStop() {
       echo
       echo "   ssh <nome_do_usuario>@<ip do usuario>"
       echo
-      echo ">> (ex.: ssh user_server@192.168.0.10")
+      echo ">> (ex.: ssh user_server@192.168.0.10)"
       echo
     else
       echo
