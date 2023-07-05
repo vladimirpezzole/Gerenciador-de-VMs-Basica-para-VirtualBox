@@ -48,6 +48,16 @@ Se você já verificou todas essas configurações e ainda não vê o conteúdo 
 
 Espero que essas orientações ajudem a solucionar o problema da pasta compartilhada do VirtualBox. Se você tiver mais alguma dúvida, sinta-se à vontade para perguntar!
 
+## 5. Se tudo estiver OK, mas não estiver montando sozinho use o comando
+
+```
+sudo mount -t vboxsf <Nome-da-Pasta-Compartilhada> /home/<nome_do_usuario>/<caminho>/<Nome-da-Pasta-Compartilhada>
+```
+Ex.: 
+```
+sudo mount -t vboxsf shared /home/user_server/www/shared
+```
+
 ---
 
 Tags: virtualbox, servidor, pasta compartilhada
